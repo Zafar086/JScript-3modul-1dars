@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div>
+      <h1>Watches</h1>
+      <h2>soat nomi</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. A tenetur
+        blanditiis quas tempore unde, deleniti amet. Est voluptates dignissimos
+        debitis, consequatur ducimus molestias impedit doloribus quidem vero,
+        ipsam fuga suscipit.
+      </p>
+    </div>
+
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="./imgs/Frame 24.png" alt="" />
+        </div>
+
+        <div class="swiper-slide">
+          <img src="./imgs/Frame 25.png" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/Frame 26.png" alt="" />
+        </div>
+        <div class="swiper-slide">
+          <img src="./imgs/Frame 27.png" alt="" />
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <!-- <div class="swiper-pagination"></div> -->
+
+      <!-- If we need navigation buttons -->
+      <div id="prev" class="swiper-button-prev"></div>
+      <div id="next" class="swiper-button-next"></div>
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+
+      const swiper = new Swiper();
+    </script>
+
+    <script src="./script.js"></script>
+  </body>
+</html>

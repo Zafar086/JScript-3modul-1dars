@@ -1,0 +1,17 @@
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-slide {
+  text-align: center;
+}
+.swiper-slide img {
+  height: 100%;
+}
+
+body{
+    background: linear-gradient(105.54deg, #F4A764 -2.93%, #FFDEC2 72.14%);
+
+    
+}
